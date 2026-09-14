@@ -1,2 +1,21 @@
-# kql-soc-queries
-KQL queries for SOC monitoring, authentication analysis, threat detection, and security investigations.
+kql-soc-queries/
+│
+├── README.md
+│
+├── authentication/
+│   ├── failed-logins.kql
+│   ├── successful-logins.kql
+│   └── suspicious-signins.kql
+│
+├── endpoint/
+│   ├── suspicious-process.kql
+│   └── powershell-activity.kql
+│
+├── phishing/
+│   └── suspicious-email.kql
+│
+├── conditional-access/
+│   └── failed-access.kql
+│
+└── threat-hunting/
+    └── suspicious-ip.kql
